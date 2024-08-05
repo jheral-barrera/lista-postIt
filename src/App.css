@@ -1,0 +1,121 @@
+html, body{
+  background-color: #ffffff;
+  color: black;
+  font-weight: 550;
+}
+
+.labelCheck{
+  color: white;
+  margin-left:5px;
+  margin-top: 11px;
+  font-size: 12px;
+}
+
+.check{
+  width: 17px;
+  height: 17px;
+  margin-top: 10px;
+}
+
+/* tipos de post it */
+.postIt1{
+  position: relative;
+  box-sizing: border-box;
+  font-size: 22px;
+  padding: 10px;
+  background-color: #f8f1b5;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px black;
+  transform: rotate(5deg);
+
+}
+
+.postIt2{
+  position: relative;
+  box-sizing: border-box;
+  font-size: 22px;
+  padding: 10px;
+  background-color: #f8f1b5;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px black;
+  transform: rotate(-5deg);
+
+}
+
+.postIt3{
+  margin-top: 12px;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 22px;
+  padding: 10px;
+  background-color: #f8f1b5;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px black;
+  transform: rotate(3deg);
+
+}
+
+.postIt4{
+  margin-top: 10px;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 22px;
+  padding: 10px;
+  background-color: #f8f1b5;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px black;
+  transform: rotate(-3deg);
+
+}
+
+/* tipos de post it importantes */
+.postItImportante1{
+  margin-top: 12px;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 22px;
+  padding: 10px;
+  background-color: #e58a80;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px black;
+  transform: rotate(-3deg);
+}
+
+.postItImportante2{
+  position: relative;
+  box-sizing: border-box;
+  font-size: 22px;
+  padding: 10px;
+  background-color: #e58a80;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px black;
+  transform: rotate(5deg);
+}
+
+/* icono para eliminar el post it */
+.postBorrarIcono{
+  position: absolute;
+  
+  right: 5px;
+  top: 0px;
+
+  font-size: 13px;
+  font-weight: bolder;
+
+  cursor: pointer;
+}
+
+.descripcion{
+  font-family: 'Reenie Beanie';
+}
+
+.btn{
+  background-color: #111;
+}
+
